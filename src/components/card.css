@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+.container {
+	text-align: center;
+	align-items: center;
+	background-color: rbg(72, 72, 72);
+	box-shadow: slategray;
+	font-family: roboto;
+	font-weight: 500;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+	background-color: #f6f6f6;
+}
+
+.product_detail {
+	margin-top: 10px;
+	border-top: 1px solid #dce8f1;
+}
+img {
+	border-radius: 10px;
+}
