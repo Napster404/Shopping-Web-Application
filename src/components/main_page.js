@@ -2,7 +2,6 @@ import react, { useState, useEffect } from "react";
 import axios from "axios";
 import "./main_page.css";
 import Card from "./card";
-import Layout from "./layout"
 
 
 let Main_page = () => {
