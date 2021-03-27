@@ -1,6 +1,6 @@
 import "./card.css";
-import Layout from "./layout";
-import { useHistory, useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 let Card = (props) => {
   let history = useHistory();
@@ -28,7 +28,9 @@ let Card = (props) => {
           history.push("/product/" + props.pro_id);
         }}
       >
-        Buy Now
+        <span class="separator" />
+        <span class="text">More details</span>
+        <ArrowForwardIosIcon />
       </div>
     </div>
   );
