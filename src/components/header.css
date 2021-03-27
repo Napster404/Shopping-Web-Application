@@ -3,10 +3,11 @@
   display: flex;
   position: sticky;
   height: 55px;
-  background-color: aquamarine;
+  background-color: #31c8a5;
 }
 .back-btn {
   display: flex;
+
   margin: 15px 0;
   margin-left: 20px;
   /* padding: 3px 6px; */
@@ -16,9 +17,13 @@
   align-self: center;
   /* justify-self: center; */
 }
+.back-btn .MuiSvgIcon-root {
+  color: #fff;
+}
 .header .title {
   font-size: 40px;
   font-family: Merienda;
+  color: #fff;
   font-weight: 400;
   width: 100%;
   text-align: center;
