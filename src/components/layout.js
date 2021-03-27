@@ -25,18 +25,42 @@ let Layout = (props) => {
         onClick={() => {
           history.replace("/");
         }}
-      >
-      </div>
-      <div class="image">
-        <img src={Product.productImage} height="200" width="200" />
-      </div>
-      <div class="info">
-        <div class="name">{Product.productName}</div>
-        <div class="brand">{Product.productBrand}</div>
-        <div class="price">{Product.productCost}</div>
-        <div class="description">{Product.productSummary}</div>
-        <div class="avail">{Product.productAvailability}</div>
-        <div class="material">{Product.productMaterial}</div>
+      ></div>
+      <div class="layout-container">
+        <div class="product-image">
+          <img src={Product.productImage} height="200" width="200" />
+        </div>
+        <div class="product-info">
+          <div class="info-box">
+            <h2>Product Description</h2>
+            <table>
+              <tr class="table-row">
+                <td>Name</td>
+                <td class="name">{Product.productName}</td>
+              </tr>
+              <tr class="table-row">
+                <td>Brand</td>
+                <td class="name">{Product.productBrand}</td>
+              </tr>
+              <tr class="table-row">
+                <td>Description</td>
+                <td class="name">{Product.productSummary}</td>
+              </tr>
+              <tr class="table-row">
+                <td>Material</td>
+                <td class="name">{Product.productMaterial}</td>
+              </tr>
+              <tr class="table-row">
+                <td>Price</td>
+                <td class="name">{Product.productCost}</td>
+              </tr>
+              <tr class="table-row">
+                <td>Availability</td>
+                <td class="name">{Product.productAvailability}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   );

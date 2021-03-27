@@ -3,11 +3,13 @@ body {
   padding: 0;
   background-color: #f1f2f5;
 }
-
+.container_main{
+  padding: 40px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
 }
 .col-sm {
   display: inline-block;
